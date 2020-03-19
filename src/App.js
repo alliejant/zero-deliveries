@@ -6,7 +6,9 @@ function App() {
     <div className="App">
       <header>
         <h1>Zero Deliveries</h1>
+        <div className="header-border" />
       </header>
+      <main></main>
     </div>
   );
 }
