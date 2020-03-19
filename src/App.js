@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Map from "./Map";
 
 function App() {
   return (
@@ -8,7 +9,9 @@ function App() {
         <h1>Zero Deliveries</h1>
         <div className="header-border" />
       </header>
-      <main></main>
+      <main>
+        <Map />
+      </main>
     </div>
   );
 }

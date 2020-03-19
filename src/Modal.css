@@ -1,0 +1,24 @@
+.Modal {
+  background-color: #ffffff;
+  width: 100px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  padding: 12px;
+  z-index: 1;
+  border-radius: 20px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 0 0 3px #ddd;
+}
+
+.close-modal {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.close-modal + h6 {
+  font-size: 1.2em;
+  margin: 10px 0px 5px;
+  border-bottom: 1px solid #acb5b9;
+}

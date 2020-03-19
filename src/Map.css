@@ -1,0 +1,22 @@
+.Map {
+  height: calc(90vmin - 88px);
+  width: 100vmin;
+  margin: auto;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+div {
+  position: relative;
+}
+
+.Car {
+  transition: all 0.3s ease-in-out;
+}
+
+.Car:hover {
+  transform: scale(1.3);
+}

@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "driverID": 0,
+      "driverName": "Antonio",
+      "currentLocation": { "lat": 37.37591, "lng": -121.83557 },
+      "deliveries": [
+        { "address": "99 Lower Street San Jose, CA 95108", "done": true },
+        { "address": "398 Petal Dr. San Jose, CA 95123", "done": true },
+        { "address": "412 Pilgrim St. San Jose, CA 95161", "done": true },
+        { "address": "7922 Greenview St. San Jose, CA 95120", "done": true }
+      ]
+    },
+    {
+      "driverID": 1,
+      "driverName": "Patricia",
+      "currentLocation": { "lat": 37.75399, "lng": -122.41846 },
+      "deliveries": [
+        {
+          "address": "34 Wakehurst Dr. San Francisco, CA 94108",
+          "done": false
+        },
+        {
+          "address": "7760 Glenwood Court Walnut Creek, CA 94596",
+          "done": false
+        }
+      ]
+    },
+    {
+      "driverID": 2,
+      "driverName": "Erin",
+      "currentLocation": { "lat": 37.828838, "lng": -122.282356 },
+      "deliveries": [
+        { "address": "354 North Amherst Dr. Oakland, CA 94615", "done": true },
+        {
+          "address": "39 Blue Spring Drive Emeryville, CA 94608",
+          "done": false
+        }
+      ]
+    },
+    {
+      "driverID": 3,
+      "driverName": "Paul",
+      "currentLocation": { "lat": 37.33197, "lng": -121.900223 },
+      "deliveries": []
+    },
+    {
+      "driverID": 4,
+      "driverName": "Samantha",
+      "currentLocation": { "lat": 37.565943, "lng": -122.320113 },
+      "deliveries": [
+        {
+          "address": "243 N. National Street San Mateo, CA 94497",
+          "done": true
+        },
+        {
+          "address": "9818 Schoolhouse St. Mountain View, CA 94042",
+          "done": false
+        },
+        { "address": "691 Lower St. Sunnyvale, CA 94086", "done": false }
+      ]
+    }
+  ]
+}
