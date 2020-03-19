@@ -19,7 +19,7 @@ function Map() {
       const { data } = deliveriesData;
       setData(data);
     }, 10000);
-    return () => clearTimeout(timer);
+    return () => clearInterval(timer);
   }, []);
 
   // Create markers when data or modalDriverID changes
